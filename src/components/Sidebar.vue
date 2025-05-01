@@ -6,30 +6,30 @@
       </li>
       <hr class="border-gray-700 w-4/5 my-2">
       
-      <li class="flex flex-col items-center py-2 px-4 hover:bg-blue-700">
+      <router-link to="/configuraciones" class="flex flex-col items-center py-2 px-4 hover:bg-blue-700">
         <font-awesome-icon icon="fa-solid fa-gear" class="w-6 h-6" />
         <span>Configuraciones</span>
-      </li>
-      <li class="flex flex-col items-center py-2 px-4 hover:bg-blue-700">
+      </router-link>
+      <router-link to="/estudiantes" class="flex flex-col items-center py-2 px-4 hover:bg-blue-700">
         <font-awesome-icon icon="fa-solid fa-user-graduate" class="w-6 h-6" />
         <span>Estudiantes</span>
-      </li>
-      <li class="flex flex-col items-center py-2 px-4 hover:bg-blue-700">
+      </router-link>
+      <router-link to="/docentes" class="flex flex-col items-center py-2 px-4 hover:bg-blue-700">
         <font-awesome-icon icon="fa-solid fa-chalkboard-teacher" class="w-6 h-6" />
         <span>Docentes</span>
-      </li>
-      <li class="flex flex-col items-center py-2 px-4 hover:bg-blue-700">
+      </router-link>
+      <router-link to="/calificaciones" class="flex flex-col items-center py-2 px-4 hover:bg-blue-700">
         <font-awesome-icon icon="fa-solid fa-star" class="w-6 h-6" />
         <span>Calificaciones</span>
-      </li>
-      <li class="flex flex-col items-center py-2 px-4 hover:bg-blue-700">
+      </router-link>
+      <router-link to="/asistencia" class="flex flex-col items-center py-2 px-4 hover:bg-blue-700">
         <font-awesome-icon icon="fa-solid fa-check-square" class="w-6 h-6" />
         <span>Asistencia</span>
-      </li>
-      <li class="flex flex-col items-center py-2 px-4 hover:bg-blue-700">
+      </router-link>
+      <router-link to="/cuenta" class="flex flex-col items-center py-2 px-4 hover:bg-blue-700">
         <font-awesome-icon icon="fa-solid fa-user" class="w-6 h-6" />
         <span>Cuenta</span>
-      </li>
+      </router-link>
     </ul>
   </aside>
 </template>

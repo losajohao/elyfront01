@@ -1,7 +1,7 @@
 <template>
   <ul class="submenu-list">
     <li v-for="item in items" :key="item.name">
-      <router-link :to="item.path">{{ item.name }}</router-link>
+      <a :href="item.path">{{ item.name }}</a>
     </li>
   </ul>
 </template>

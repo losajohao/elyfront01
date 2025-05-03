@@ -18,9 +18,9 @@ const props = defineProps({
 
 const submenus = {
   configuraciones: [
-    { name: 'General', path: '#general' },
-    { name: 'Perfil', path: '#perfil' },
-    { name: 'Seguridad', path: '#seguridad' }
+    { name: 'Perfil', path: 'perfil' },
+    { name: 'Periodos', path: 'periodos' },
+    { name: 'Seguridad', path: 'seguridad' }
   ],
   estudiantes: [],
   docentes: [],
